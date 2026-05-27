@@ -1,0 +1,70 @@
+# ---------------------------------------------------------------------------
+# macOS
+# ---------------------------------------------------------------------------
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ---------------------------------------------------------------------------
+# Xcode
+# ---------------------------------------------------------------------------
+# Build products and intermediates
+build/
+DerivedData/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Xcode per-user state (schemes/breakpoints stay shareable under xcshareddata)
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+*.pbxuser
+
+# Playground / Instruments
+timeline.xctimeline
+playground.xcworkspace
+*.trace
+
+# ---------------------------------------------------------------------------
+# Swift Package Manager
+# ---------------------------------------------------------------------------
+.build/
+.swiftpm/
+# Keep Package.resolved committed for apps so dependency versions are pinned.
+# Uncomment the next line if this becomes a library:
+# Package.resolved
+
+# ---------------------------------------------------------------------------
+# Local tooling / generated artifacts
+# ---------------------------------------------------------------------------
+# dex task-tracker state (local only)
+.dex/
+# Throwaway repo created by scripts/demo-commits.sh
+TestRepos/DemoRepo/
+# Raw screen recording — only the compressed assets/demo.mp4 is committed
+assets/demo-source.mov
+
+*.swp
+*~.nib
+*.log
+.netrc

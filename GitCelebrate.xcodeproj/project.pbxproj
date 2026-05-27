@@ -1,0 +1,692 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01AF6BA2EA2C4AB00C9CC7A7 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09B1B1CF42C1A1084CA719A /* SettingsStore.swift */; };
+		0863928E41C0CE332CF4ABD3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07036FAE9C83EF6D027E66B9 /* SettingsView.swift */; };
+		0BB71E97C7656DDA89979F3E /* StatsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF4720D1B8A866ED2EABD0 /* StatsStore.swift */; };
+		0CBFAF281E3AC3947BD89794 /* GitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA358C00AC679662DD83D651 /* GitEvent.swift */; };
+		1C7BEF6593F9DDC174FC3645 /* StatsTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A38C7EFEF16624641A2EFD /* StatsTracker.swift */; };
+		212083B2DAF8651F046CB427 /* RewardScorerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172196E19B706FF418147AFC /* RewardScorerTests.swift */; };
+		23FF867D78AC32A81006EC7D /* RewardScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F987C773B2198E6E7B9F08 /* RewardScore.swift */; };
+		25E2A9B859E77F28B3C06F84 /* AnimationVariantPickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE53FCB3B649D1B034B9324 /* AnimationVariantPickerTests.swift */; };
+		2796D5F4476EA892B162C071 /* MenuBarContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638C2119204F41645D1D888 /* MenuBarContentView.swift */; };
+		2C100215250AF376D82D0353 /* CelebrationCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA7FBD2A5E9E7AA03B99373 /* CelebrationCopy.swift */; };
+		2E0A0F0D210A15A3EFA3004C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185B7D34CB1FAE63EF36A676 /* AppState.swift */; };
+		2E58538CCC04258F472BD17A /* RewardGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1D1E4B446E4BE4D72C7542 /* RewardGenerator.swift */; };
+		3DDF6F1A5AE144855EDF7F78 /* GitActivityParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17A5B6DA94EE099DAA4B7B4 /* GitActivityParser.swift */; };
+		4372427F0E52988001C94701 /* GitHookPayload.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5869B019EA8D9CE17497E7 /* GitHookPayload.swift */; };
+		441E2BE6B75A4F19AC6AC973 /* GitHookInstaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C583931700989BEA99C131A4 /* GitHookInstaller.swift */; };
+		453A9868B6BA7B9D3D85B4A0 /* OverlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720EDCB69D39223B25A0ED4A /* OverlayScene.swift */; };
+		47A1E6A1A10CBD028E388DF7 /* AppStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B5B55194FF2CA4E46626B /* AppStats.swift */; };
+		4F00B426E7288C4CF4B1B8E9 /* EventsSettingsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E721762AFF98BF9DB36D7D1 /* EventsSettingsPane.swift */; };
+		511E1B2D4E8BFDD0A5D85FD5 /* GeneralSettingsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02302D4A60B13113A4DF3003 /* GeneralSettingsPane.swift */; };
+		5525A42697ED5270D2A05729 /* RewardGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4695B07BD257A9F76A1D76A3 /* RewardGeneratorTests.swift */; };
+		564B777579DCE7A0793946F5 /* AnimationStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92D7A5AB38EE23E1BCBEDE2 /* AnimationStyle.swift */; };
+		58AE91ECD2F570371722E40D /* AnimationVariant.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDD3271AE55D2947A4A82CAB /* AnimationVariant.swift */; };
+		5C2F488F3FA2E20191E6C7D0 /* GitActivityParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFB31848186172D4E09CECC /* GitActivityParserTests.swift */; };
+		5F509701804564BD0F97146C /* EventEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4242C1B940BB222AFC18041F /* EventEngine.swift */; };
+		64A45DD4267007298D53D14D /* OverlayWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C280B3E74EEAF319C88262 /* OverlayWindowController.swift */; };
+		71EE4F094A361C516CF41103 /* OverlayAnimationPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4196042A74324C3A35E7C19D /* OverlayAnimationPlugin.swift */; };
+		74CB515E1396191953B3BF74 /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491A15E69145A265D8EBFA3A /* AppController.swift */; };
+		79B665EBBB2B60A966DFB829 /* EventRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9EF94D4976CA2CCAEE9DBB /* EventRule.swift */; };
+		7D0FD7E9A60AD3C5B77CD5BF /* AppStatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19653612FC01D49C4B0C225 /* AppStatsTests.swift */; };
+		84ACD295CDD8E0CBA6628E54 /* GitCommitMetadataReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA5636C31DF7D8A12262B55 /* GitCommitMetadataReader.swift */; };
+		85E8177084720DADA01148C9 /* GitHookHTTPParserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F622DAABAEF7C637BFE60BB /* GitHookHTTPParserTests.swift */; };
+		866E24FE34B85A337D1CA08D /* EventSourcesSettingsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86F4E2B2A6FAF07F72846B2 /* EventSourcesSettingsPane.swift */; };
+		876614689E338711D449AF3F /* AnimationVariantPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBEEAD30EB7EC562A9677FD /* AnimationVariantPicker.swift */; };
+		89E53B94DC83F01497E95C4C /* OverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B25D848E667B1B542E6912 /* OverlayManager.swift */; };
+		9E1CCF882D580446AF27A179 /* EventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2531EAB7DC6E84848009E197 /* EventSource.swift */; };
+		A2A0DADAC6D3371AEBD051D6 /* AppEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8F0436E43770F713A5527E /* AppEvent.swift */; };
+		AAAFC3297936D4E663E46582 /* AppearanceSettingsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 265E141FC93B7C44682BAE54 /* AppearanceSettingsPane.swift */; };
+		B076D304E097378E5667A781 /* RepositoriesSettingsPane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5038E10B4DD6312D9ED76941 /* RepositoriesSettingsPane.swift */; };
+		B33CB36D6DEE35306E68D4A2 /* RepoObserverSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE2DE5D319C5B78CE7C489F /* RepoObserverSource.swift */; };
+		B62EED0934058BFE4274245E /* GitHookInstallerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DB0BF4112AFD4E8D2FC9A9 /* GitHookInstallerTests.swift */; };
+		BB3360410B76D23996B3FCA4 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F495D723C8D386E86077AD3 /* AppSettings.swift */; };
+		BF7149FE77B45E582259511E /* RepoDiscoveryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F19CDB29B5E9542236B88 /* RepoDiscoveryTests.swift */; };
+		CB7172B985BEADAC16B0AE7F /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AA70F76CA8407C7BB8CC79 /* AudioManager.swift */; };
+		CD0A6CFF6E6FE248B1B7D5CB /* RepoDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1596ED8D54D75006E1D1EE42 /* RepoDiscovery.swift */; };
+		D37D8B407F9443A5FE6F88CD /* RepoConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7515B8ED32BBBDC596DB715 /* RepoConfiguration.swift */; };
+		E5CDD177A1DB967B97EFFB3A /* OverlaySceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F595BECF7C9BC593C18A8C /* OverlaySceneView.swift */; };
+		E8AE18319F68B7F7CE9A0D40 /* GitCommitMetadataReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE619B994EBE62FA88D9F7F /* GitCommitMetadataReaderTests.swift */; };
+		EAB00D2FF4EFF90D3C0BAB1F /* CelebrationCopyGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1439D8AE218BACA847A48C00 /* CelebrationCopyGeneratorTests.swift */; };
+		ED9697DFE3B66A7986BD8BD6 /* EventSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0924668E9F0A4492B6E2F3B6 /* EventSourceManager.swift */; };
+		F1AECDAE86CF4FDDAEECE5B5 /* RewardEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC86F66735D5C4374192201 /* RewardEvent.swift */; };
+		F451E3CBC997E697AD635F15 /* GitHookEventSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E599C980B335673266B90604 /* GitHookEventSource.swift */; };
+		FBFCDFCFBEC949F9034D2910 /* GitCelebrateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A7B8B9E25E685253411124 /* GitCelebrateApp.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58C41B93A801883B13EDB1C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D95878AB3BD70C85C082D66E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E51BE10407FAC592EF1F2D6;
+			remoteInfo = GitCelebrate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02302D4A60B13113A4DF3003 /* GeneralSettingsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralSettingsPane.swift; sourceTree = "<group>"; };
+		07036FAE9C83EF6D027E66B9 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		07A38C7EFEF16624641A2EFD /* StatsTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsTracker.swift; sourceTree = "<group>"; };
+		0924668E9F0A4492B6E2F3B6 /* EventSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSourceManager.swift; sourceTree = "<group>"; };
+		0E721762AFF98BF9DB36D7D1 /* EventsSettingsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsSettingsPane.swift; sourceTree = "<group>"; };
+		0F495D723C8D386E86077AD3 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		1439D8AE218BACA847A48C00 /* CelebrationCopyGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationCopyGeneratorTests.swift; sourceTree = "<group>"; };
+		1596ED8D54D75006E1D1EE42 /* RepoDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDiscovery.swift; sourceTree = "<group>"; };
+		16F595BECF7C9BC593C18A8C /* OverlaySceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaySceneView.swift; sourceTree = "<group>"; };
+		172196E19B706FF418147AFC /* RewardScorerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScorerTests.swift; sourceTree = "<group>"; };
+		185B7D34CB1FAE63EF36A676 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		1AA5636C31DF7D8A12262B55 /* GitCommitMetadataReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitMetadataReader.swift; sourceTree = "<group>"; };
+		24BF4720D1B8A866ED2EABD0 /* StatsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsStore.swift; sourceTree = "<group>"; };
+		2531EAB7DC6E84848009E197 /* EventSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSource.swift; sourceTree = "<group>"; };
+		265E141FC93B7C44682BAE54 /* AppearanceSettingsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearanceSettingsPane.swift; sourceTree = "<group>"; };
+		2E9EF94D4976CA2CCAEE9DBB /* EventRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventRule.swift; sourceTree = "<group>"; };
+		347F19CDB29B5E9542236B88 /* RepoDiscoveryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoDiscoveryTests.swift; sourceTree = "<group>"; };
+		3D1D1E4B446E4BE4D72C7542 /* RewardGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardGenerator.swift; sourceTree = "<group>"; };
+		4196042A74324C3A35E7C19D /* OverlayAnimationPlugin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayAnimationPlugin.swift; sourceTree = "<group>"; };
+		4242C1B940BB222AFC18041F /* EventEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEngine.swift; sourceTree = "<group>"; };
+		4695B07BD257A9F76A1D76A3 /* RewardGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardGeneratorTests.swift; sourceTree = "<group>"; };
+		47A7B8B9E25E685253411124 /* GitCelebrateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCelebrateApp.swift; sourceTree = "<group>"; };
+		491A15E69145A265D8EBFA3A /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
+		4F622DAABAEF7C637BFE60BB /* GitHookHTTPParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHookHTTPParserTests.swift; sourceTree = "<group>"; };
+		5038E10B4DD6312D9ED76941 /* RepositoriesSettingsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoriesSettingsPane.swift; sourceTree = "<group>"; };
+		5672801485D4534F0C5A823D /* GitCelebrate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitCelebrate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71764C17DEDB872570BC647E /* GitCelebrateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitCelebrateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		720EDCB69D39223B25A0ED4A /* OverlayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayScene.swift; sourceTree = "<group>"; };
+		7BBEEAD30EB7EC562A9677FD /* AnimationVariantPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVariantPicker.swift; sourceTree = "<group>"; };
+		85F987C773B2198E6E7B9F08 /* RewardScore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardScore.swift; sourceTree = "<group>"; };
+		8A8F0436E43770F713A5527E /* AppEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEvent.swift; sourceTree = "<group>"; };
+		8BE53FCB3B649D1B034B9324 /* AnimationVariantPickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVariantPickerTests.swift; sourceTree = "<group>"; };
+		93AA70F76CA8407C7BB8CC79 /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		9CE2DE5D319C5B78CE7C489F /* RepoObserverSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoObserverSource.swift; sourceTree = "<group>"; };
+		AE5869B019EA8D9CE17497E7 /* GitHookPayload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHookPayload.swift; sourceTree = "<group>"; };
+		B09B1B1CF42C1A1084CA719A /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		B70B54707308904F922BD450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B7515B8ED32BBBDC596DB715 /* RepoConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoConfiguration.swift; sourceTree = "<group>"; };
+		BBFB31848186172D4E09CECC /* GitActivityParserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitActivityParserTests.swift; sourceTree = "<group>"; };
+		C19653612FC01D49C4B0C225 /* AppStatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStatsTests.swift; sourceTree = "<group>"; };
+		C1C280B3E74EEAF319C88262 /* OverlayWindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayWindowController.swift; sourceTree = "<group>"; };
+		C3B25D848E667B1B542E6912 /* OverlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayManager.swift; sourceTree = "<group>"; };
+		C583931700989BEA99C131A4 /* GitHookInstaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHookInstaller.swift; sourceTree = "<group>"; };
+		D17A5B6DA94EE099DAA4B7B4 /* GitActivityParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitActivityParser.swift; sourceTree = "<group>"; };
+		D5DB0BF4112AFD4E8D2FC9A9 /* GitHookInstallerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHookInstallerTests.swift; sourceTree = "<group>"; };
+		D638C2119204F41645D1D888 /* MenuBarContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarContentView.swift; sourceTree = "<group>"; };
+		D92D7A5AB38EE23E1BCBEDE2 /* AnimationStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationStyle.swift; sourceTree = "<group>"; };
+		DA358C00AC679662DD83D651 /* GitEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitEvent.swift; sourceTree = "<group>"; };
+		DDD3271AE55D2947A4A82CAB /* AnimationVariant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationVariant.swift; sourceTree = "<group>"; };
+		DEC86F66735D5C4374192201 /* RewardEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardEvent.swift; sourceTree = "<group>"; };
+		E599C980B335673266B90604 /* GitHookEventSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHookEventSource.swift; sourceTree = "<group>"; };
+		E86F4E2B2A6FAF07F72846B2 /* EventSourcesSettingsPane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSourcesSettingsPane.swift; sourceTree = "<group>"; };
+		EEE619B994EBE62FA88D9F7F /* GitCommitMetadataReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitCommitMetadataReaderTests.swift; sourceTree = "<group>"; };
+		FCA7FBD2A5E9E7AA03B99373 /* CelebrationCopy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelebrationCopy.swift; sourceTree = "<group>"; };
+		FD7B5B55194FF2CA4E46626B /* AppStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStats.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		09EA622ED0DA7E77770ECBA9 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				491A15E69145A265D8EBFA3A /* AppController.swift */,
+				185B7D34CB1FAE63EF36A676 /* AppState.swift */,
+				47A7B8B9E25E685253411124 /* GitCelebrateApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0F796F6982D7E7BC4DE4C954 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				FD7B5B55194FF2CA4E46626B /* AppStats.swift */,
+				24BF4720D1B8A866ED2EABD0 /* StatsStore.swift */,
+				07A38C7EFEF16624641A2EFD /* StatsTracker.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		152836AED286D2C3EC6377BB /* GitCelebrateTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BE53FCB3B649D1B034B9324 /* AnimationVariantPickerTests.swift */,
+				C19653612FC01D49C4B0C225 /* AppStatsTests.swift */,
+				1439D8AE218BACA847A48C00 /* CelebrationCopyGeneratorTests.swift */,
+				BBFB31848186172D4E09CECC /* GitActivityParserTests.swift */,
+				EEE619B994EBE62FA88D9F7F /* GitCommitMetadataReaderTests.swift */,
+				4F622DAABAEF7C637BFE60BB /* GitHookHTTPParserTests.swift */,
+				D5DB0BF4112AFD4E8D2FC9A9 /* GitHookInstallerTests.swift */,
+				347F19CDB29B5E9542236B88 /* RepoDiscoveryTests.swift */,
+				4695B07BD257A9F76A1D76A3 /* RewardGeneratorTests.swift */,
+				172196E19B706FF418147AFC /* RewardScorerTests.swift */,
+			);
+			path = GitCelebrateTests;
+			sourceTree = "<group>";
+		};
+		3A05AF863F88D48561CBF466 /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				8A8F0436E43770F713A5527E /* AppEvent.swift */,
+				4242C1B940BB222AFC18041F /* EventEngine.swift */,
+				2E9EF94D4976CA2CCAEE9DBB /* EventRule.swift */,
+				2531EAB7DC6E84848009E197 /* EventSource.swift */,
+				0924668E9F0A4492B6E2F3B6 /* EventSourceManager.swift */,
+				DA358C00AC679662DD83D651 /* GitEvent.swift */,
+				DEC86F66735D5C4374192201 /* RewardEvent.swift */,
+				3D1D1E4B446E4BE4D72C7542 /* RewardGenerator.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		4B4A74DCFF8063211587993E /* GitCelebrate */ = {
+			isa = PBXGroup;
+			children = (
+				B70B54707308904F922BD450 /* Info.plist */,
+				09EA622ED0DA7E77770ECBA9 /* App */,
+				F6C9CE64AEBF0491ED782636 /* Audio */,
+				3A05AF863F88D48561CBF466 /* Events */,
+				CCBD851417DF4D2F9848EA2C /* GitHooks */,
+				6A115BFB6EEC2BEC786D03B2 /* Models */,
+				A02AD0A300BF865A45C92B48 /* Overlay */,
+				9E7C5776A94217BC30637F96 /* Persistence */,
+				E02168E09C62A61FEEACCD5E /* Repositories */,
+				F15CFE1725C6C396FC51CF51 /* Rewards */,
+				0F796F6982D7E7BC4DE4C954 /* Stats */,
+				DCFE1797BF7800ED5E81498F /* Views */,
+			);
+			path = GitCelebrate;
+			sourceTree = "<group>";
+		};
+		6A115BFB6EEC2BEC786D03B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D92D7A5AB38EE23E1BCBEDE2 /* AnimationStyle.swift */,
+				DDD3271AE55D2947A4A82CAB /* AnimationVariant.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9E7C5776A94217BC30637F96 /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				0F495D723C8D386E86077AD3 /* AppSettings.swift */,
+				B09B1B1CF42C1A1084CA719A /* SettingsStore.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		A02AD0A300BF865A45C92B48 /* Overlay */ = {
+			isa = PBXGroup;
+			children = (
+				4196042A74324C3A35E7C19D /* OverlayAnimationPlugin.swift */,
+				C3B25D848E667B1B542E6912 /* OverlayManager.swift */,
+				720EDCB69D39223B25A0ED4A /* OverlayScene.swift */,
+				16F595BECF7C9BC593C18A8C /* OverlaySceneView.swift */,
+				C1C280B3E74EEAF319C88262 /* OverlayWindowController.swift */,
+			);
+			path = Overlay;
+			sourceTree = "<group>";
+		};
+		AF777EEF6B05AC8F761BAB31 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				265E141FC93B7C44682BAE54 /* AppearanceSettingsPane.swift */,
+				E86F4E2B2A6FAF07F72846B2 /* EventSourcesSettingsPane.swift */,
+				0E721762AFF98BF9DB36D7D1 /* EventsSettingsPane.swift */,
+				02302D4A60B13113A4DF3003 /* GeneralSettingsPane.swift */,
+				5038E10B4DD6312D9ED76941 /* RepositoriesSettingsPane.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		B30A0243B479A33626A49DF6 = {
+			isa = PBXGroup;
+			children = (
+				4B4A74DCFF8063211587993E /* GitCelebrate */,
+				152836AED286D2C3EC6377BB /* GitCelebrateTests */,
+				B30D5FA209C81A2BE8BABBC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B30D5FA209C81A2BE8BABBC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5672801485D4534F0C5A823D /* GitCelebrate.app */,
+				71764C17DEDB872570BC647E /* GitCelebrateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCBD851417DF4D2F9848EA2C /* GitHooks */ = {
+			isa = PBXGroup;
+			children = (
+				E599C980B335673266B90604 /* GitHookEventSource.swift */,
+				C583931700989BEA99C131A4 /* GitHookInstaller.swift */,
+				AE5869B019EA8D9CE17497E7 /* GitHookPayload.swift */,
+			);
+			path = GitHooks;
+			sourceTree = "<group>";
+		};
+		DCFE1797BF7800ED5E81498F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D638C2119204F41645D1D888 /* MenuBarContentView.swift */,
+				07036FAE9C83EF6D027E66B9 /* SettingsView.swift */,
+				AF777EEF6B05AC8F761BAB31 /* Settings */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E02168E09C62A61FEEACCD5E /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				D17A5B6DA94EE099DAA4B7B4 /* GitActivityParser.swift */,
+				1AA5636C31DF7D8A12262B55 /* GitCommitMetadataReader.swift */,
+				B7515B8ED32BBBDC596DB715 /* RepoConfiguration.swift */,
+				1596ED8D54D75006E1D1EE42 /* RepoDiscovery.swift */,
+				9CE2DE5D319C5B78CE7C489F /* RepoObserverSource.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		F15CFE1725C6C396FC51CF51 /* Rewards */ = {
+			isa = PBXGroup;
+			children = (
+				7BBEEAD30EB7EC562A9677FD /* AnimationVariantPicker.swift */,
+				FCA7FBD2A5E9E7AA03B99373 /* CelebrationCopy.swift */,
+				85F987C773B2198E6E7B9F08 /* RewardScore.swift */,
+			);
+			path = Rewards;
+			sourceTree = "<group>";
+		};
+		F6C9CE64AEBF0491ED782636 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				93AA70F76CA8407C7BB8CC79 /* AudioManager.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E51BE10407FAC592EF1F2D6 /* GitCelebrate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9A369C0DEA8F81B30B02BD /* Build configuration list for PBXNativeTarget "GitCelebrate" */;
+			buildPhases = (
+				25937B64C6B75C2D4EDEB72D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitCelebrate;
+			packageProductDependencies = (
+			);
+			productName = GitCelebrate;
+			productReference = 5672801485D4534F0C5A823D /* GitCelebrate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9266B9601C67BBD2923A0E4F /* GitCelebrateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F24FEFDAADA94B7158B34E89 /* Build configuration list for PBXNativeTarget "GitCelebrateTests" */;
+			buildPhases = (
+				A2BB6BC3CFEFDD93A00B79FB /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82C051FD16D72BAA6CB6BFEA /* PBXTargetDependency */,
+			);
+			name = GitCelebrateTests;
+			packageProductDependencies = (
+			);
+			productName = GitCelebrateTests;
+			productReference = 71764C17DEDB872570BC647E /* GitCelebrateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D95878AB3BD70C85C082D66E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0E51BE10407FAC592EF1F2D6 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 28076CE33DA296E5F6F77A68 /* Build configuration list for PBXProject "GitCelebrate" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B30A0243B479A33626A49DF6;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B30D5FA209C81A2BE8BABBC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E51BE10407FAC592EF1F2D6 /* GitCelebrate */,
+				9266B9601C67BBD2923A0E4F /* GitCelebrateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25937B64C6B75C2D4EDEB72D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				564B777579DCE7A0793946F5 /* AnimationStyle.swift in Sources */,
+				58AE91ECD2F570371722E40D /* AnimationVariant.swift in Sources */,
+				876614689E338711D449AF3F /* AnimationVariantPicker.swift in Sources */,
+				74CB515E1396191953B3BF74 /* AppController.swift in Sources */,
+				A2A0DADAC6D3371AEBD051D6 /* AppEvent.swift in Sources */,
+				BB3360410B76D23996B3FCA4 /* AppSettings.swift in Sources */,
+				2E0A0F0D210A15A3EFA3004C /* AppState.swift in Sources */,
+				47A1E6A1A10CBD028E388DF7 /* AppStats.swift in Sources */,
+				AAAFC3297936D4E663E46582 /* AppearanceSettingsPane.swift in Sources */,
+				CB7172B985BEADAC16B0AE7F /* AudioManager.swift in Sources */,
+				2C100215250AF376D82D0353 /* CelebrationCopy.swift in Sources */,
+				5F509701804564BD0F97146C /* EventEngine.swift in Sources */,
+				79B665EBBB2B60A966DFB829 /* EventRule.swift in Sources */,
+				9E1CCF882D580446AF27A179 /* EventSource.swift in Sources */,
+				ED9697DFE3B66A7986BD8BD6 /* EventSourceManager.swift in Sources */,
+				866E24FE34B85A337D1CA08D /* EventSourcesSettingsPane.swift in Sources */,
+				4F00B426E7288C4CF4B1B8E9 /* EventsSettingsPane.swift in Sources */,
+				511E1B2D4E8BFDD0A5D85FD5 /* GeneralSettingsPane.swift in Sources */,
+				3DDF6F1A5AE144855EDF7F78 /* GitActivityParser.swift in Sources */,
+				FBFCDFCFBEC949F9034D2910 /* GitCelebrateApp.swift in Sources */,
+				84ACD295CDD8E0CBA6628E54 /* GitCommitMetadataReader.swift in Sources */,
+				0CBFAF281E3AC3947BD89794 /* GitEvent.swift in Sources */,
+				F451E3CBC997E697AD635F15 /* GitHookEventSource.swift in Sources */,
+				441E2BE6B75A4F19AC6AC973 /* GitHookInstaller.swift in Sources */,
+				4372427F0E52988001C94701 /* GitHookPayload.swift in Sources */,
+				2796D5F4476EA892B162C071 /* MenuBarContentView.swift in Sources */,
+				71EE4F094A361C516CF41103 /* OverlayAnimationPlugin.swift in Sources */,
+				89E53B94DC83F01497E95C4C /* OverlayManager.swift in Sources */,
+				453A9868B6BA7B9D3D85B4A0 /* OverlayScene.swift in Sources */,
+				E5CDD177A1DB967B97EFFB3A /* OverlaySceneView.swift in Sources */,
+				64A45DD4267007298D53D14D /* OverlayWindowController.swift in Sources */,
+				D37D8B407F9443A5FE6F88CD /* RepoConfiguration.swift in Sources */,
+				CD0A6CFF6E6FE248B1B7D5CB /* RepoDiscovery.swift in Sources */,
+				B33CB36D6DEE35306E68D4A2 /* RepoObserverSource.swift in Sources */,
+				B076D304E097378E5667A781 /* RepositoriesSettingsPane.swift in Sources */,
+				F1AECDAE86CF4FDDAEECE5B5 /* RewardEvent.swift in Sources */,
+				2E58538CCC04258F472BD17A /* RewardGenerator.swift in Sources */,
+				23FF867D78AC32A81006EC7D /* RewardScore.swift in Sources */,
+				01AF6BA2EA2C4AB00C9CC7A7 /* SettingsStore.swift in Sources */,
+				0863928E41C0CE332CF4ABD3 /* SettingsView.swift in Sources */,
+				0BB71E97C7656DDA89979F3E /* StatsStore.swift in Sources */,
+				1C7BEF6593F9DDC174FC3645 /* StatsTracker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2BB6BC3CFEFDD93A00B79FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25E2A9B859E77F28B3C06F84 /* AnimationVariantPickerTests.swift in Sources */,
+				7D0FD7E9A60AD3C5B77CD5BF /* AppStatsTests.swift in Sources */,
+				EAB00D2FF4EFF90D3C0BAB1F /* CelebrationCopyGeneratorTests.swift in Sources */,
+				5C2F488F3FA2E20191E6C7D0 /* GitActivityParserTests.swift in Sources */,
+				E8AE18319F68B7F7CE9A0D40 /* GitCommitMetadataReaderTests.swift in Sources */,
+				85E8177084720DADA01148C9 /* GitHookHTTPParserTests.swift in Sources */,
+				B62EED0934058BFE4274245E /* GitHookInstallerTests.swift in Sources */,
+				BF7149FE77B45E582259511E /* RepoDiscoveryTests.swift in Sources */,
+				5525A42697ED5270D2A05729 /* RewardGeneratorTests.swift in Sources */,
+				212083B2DAF8651F046CB427 /* RewardScorerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82C051FD16D72BAA6CB6BFEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E51BE10407FAC592EF1F2D6 /* GitCelebrate */;
+			targetProxy = 58C41B93A801883B13EDB1C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7AAA2AF9EAF23F7E101F59A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = GitCelebrate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GitCelebrate;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		90FE41DADED32B369F73ECA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Release;
+		};
+		BA8D7A26FC46A2B5ED66967B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.craigholliday.GitCelebrateTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitCelebrate.app/Contents/MacOS/GitCelebrate";
+			};
+			name = Release;
+		};
+		BBE9BEAD068194A160EA7E47 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.2;
+			};
+			name = Debug;
+		};
+		DDC0C21ED6B790B3BC193415 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_FILE = GitCelebrate/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GitCelebrate;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FFA0FFE7E32B229BAED908C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.craigholliday.GitCelebrateTests;
+				SDKROOT = macosx;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GitCelebrate.app/Contents/MacOS/GitCelebrate";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9A369C0DEA8F81B30B02BD /* Build configuration list for PBXNativeTarget "GitCelebrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AAA2AF9EAF23F7E101F59A1 /* Debug */,
+				DDC0C21ED6B790B3BC193415 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		28076CE33DA296E5F6F77A68 /* Build configuration list for PBXProject "GitCelebrate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBE9BEAD068194A160EA7E47 /* Debug */,
+				90FE41DADED32B369F73ECA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F24FEFDAADA94B7158B34E89 /* Build configuration list for PBXNativeTarget "GitCelebrateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFA0FFE7E32B229BAED908C6 /* Debug */,
+				BA8D7A26FC46A2B5ED66967B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D95878AB3BD70C85C082D66E /* Project object */;
+}
